@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.png";
+import myImg from "../../Assets/avatar.jpeg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -18,32 +18,7 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I am pursuing CSE at VIT, Vellore.
-              <br />
-              <br />
-              <br />
-              <br />
-              My field of interests are Machine Learning &nbsp;
-              <i>
-                <b className="purple">Web development </b> and
-                also{" "}
-                <b className="purple">
-                  Blockchain and Web 3.0.
-                </b>
-              </i>
-              <br />
-              <br />
-              I also write <b className="purple">blogs</b> about
-              <i>
-                <b className="purple">
-                  {" "}
-                  new technologies
-                </b>
-              </i>
-              &nbsp; and
-              <i>
-                <b className="purple"> am a designer as well.</b>
-              </i>
+            I am an ambitious and forward-thinking individual driven by my unwavering passion for technology. With a keen interest in computer science, I constantly seek opportunities to explore new frontiers and challenge conventional boundaries. My ultimate ambition is to leverage advanced technologies, such as deep learning and artificial intelligence, to revolutionize industries and make a positive impact on society. Through continuous learning, innovation, and dedication, I aim to be at the forefront of technological advancements, shaping the future of technology and creating transformative solutions that address real-world challenges.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -81,7 +56,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/akshata-b-342a261bb/"
+                  href="https://www.linkedin.com/in/akshata-bhat-342a261bb/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
