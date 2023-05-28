@@ -18,7 +18,13 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-            I am an ambitious and forward-thinking individual driven by my unwavering passion for technology. With a keen interest in computer science, I constantly seek opportunities to explore new frontiers and challenge conventional boundaries. My ultimate ambition is to leverage advanced technologies, such as deep learning and artificial intelligence, to revolutionize industries and make a positive impact on society. Through continuous learning, innovation, and dedication, I aim to be at the forefront of technological advancements, shaping the future of technology and creating transformative solutions that address real-world challenges.
+            I am an ambitious and forward-thinking individual driven by my unwavering passion for technology. With a keen interest in computer science, I constantly seek opportunities to explore new frontiers and challenge conventional boundaries. My ultimate ambition is to leverage advanced technologies, such as deep learning and artificial intelligence, to revolutionize industries and make a positive impact on society. Through continuous learning, innovation, and dedication, I aim to be at the forefront of technological advancements, shaping the future of technology and creating transformative solutions that address real-world challenges.           
+            </p>
+          
+          
+          
+            <p className="home-about-body">
+            Furthermore, I am set to graduate in 2024, and I am actively seeking full-time roles as a software engineer, data analyst, or data scientist. I am excited to apply my skills, knowledge, and passion to real-world projects and contribute to the development of cutting-edge technologies. With a strong foundation in computer science and a track record of success in research and industry internships, I am confident in my ability to make valuable contributions to any organization. I am eager to join a dynamic team that values innovation, collaboration, and continuous learning, where I can further enhance my expertise and drive meaningful change in the field.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
