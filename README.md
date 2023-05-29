@@ -42,5 +42,11 @@ To deploy the project:
 ```bash
   vercel
 ```
-
+3. After deploying, make changes in your repository. Then push the changes.
+```bash
+  git status
+  git add .
+  git commit -m "Commit message"
+  git push
+```
 
