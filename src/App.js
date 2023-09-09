@@ -6,6 +6,8 @@ import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
 import Resume from "./components/Resume/ResumeNew";
+import Publications from "./components/About/Publications"; // Import your publications route component
+
 import {
   BrowserRouter as Router,
   Route,
@@ -38,6 +40,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/project" element={<Projects />} />
           <Route path="/contact" element={<About />} />
+          <Route path="/publications" element={<Publications/>} />
+
           <Route path="/resume" element={<Resume />} />
           
           <Route path="*" element={<Navigate to="/"/>} />

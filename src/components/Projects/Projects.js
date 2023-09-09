@@ -4,8 +4,9 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import engage from "../../Assets/Projects/engage.jpg";
 import mask from "../../Assets/Projects/hci.png";
-import cov from "../../Assets/Projects/cov.png";
 import fire from "../../Assets/Projects/Fire .jpg";
+import cov from "../../Assets/Projects/cov.png";
+
 
 
 function Projects() {
@@ -42,11 +43,13 @@ link="https://drive.google.com/file/d/1fKrv7xcg97jVw-SCGY_unaPXCZbDZS-3/view?usp
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={cov}
+            imgPath={cov}
               isBlog={false}
-              title="COVID-19 detection using novel VGG-ResNet model"
-              description="I developed a hybrid VGG-ResNet model with 93.67% accuracy for detecting COVID-19 from X-ray images and am currently working on a research paper proposing this novel approach."
-              link="https://colab.research.google.com/drive/1KuI6BjaBsuz8fClweso_c2aNgqmSPezl?usp=sharing"
+              title="Artify - Image Editing tool"
+              description="Developed an image-editing website using OpenCV and Flask. The user can
+adjust brightness, saturation, grayscale and perform rotations on the image. The website includes a text-based image
+editing interface."
+              link="https://akshataabhat.github.io/Artify/templates/about.html#"
             />
           </Col>
 

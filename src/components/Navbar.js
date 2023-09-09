@@ -5,11 +5,15 @@ import Container from "react-bootstrap/Container";
 import logo from "../Assets/logo.png";
 import { Link } from "react-router-dom";
 import { ImBlog } from "react-icons/im";
+
 import {
   
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
-  AiOutlineUser,
+  AiTwotoneMail,
+  AiOutlineProfile
+
+  
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
@@ -72,25 +76,28 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
+            
+            <Nav.Item>
+            <Nav.Link
+                as={Link}
+                to="/publications"
+                onClick={() => updateExpanded(false)}
+              >
+                <CgFileDocument style={{ marginBottom: "2px" }} /> Publications
+              </Nav.Link>
+            </Nav.Item>
+
             <Nav.Item>
               <Nav.Link
                 as={Link}
                 to="/resume"
                 onClick={() => updateExpanded(false)}
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
+                <AiOutlineProfile style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
-              <Nav.Link
-                href="https://medium.com/@akshatabhat.a2020"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <ImBlog style={{ marginBottom: "2px" }} /> Blogs
-              </Nav.Link>
-            </Nav.Item>
+           
 
             <Nav.Item>
               <Nav.Link
@@ -98,7 +105,7 @@ function NavBar() {
                 to="/contact"
                 onClick={() => updateExpanded(false)}
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Contact
+                <AiTwotoneMail style={{ marginBottom: "2px" }} /> Contact
               </Nav.Link>
             </Nav.Item>
 
