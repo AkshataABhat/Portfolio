@@ -97,6 +97,15 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
+             <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="https://medium.com/@akshatabhat.a2020"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiFillRead style={{ marginBottom: "2px" }} /> Blog
+              </Nav.Link>
+            </Nav.Item>
            
 
             <Nav.Item>
